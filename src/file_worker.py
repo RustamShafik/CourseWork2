@@ -6,6 +6,8 @@ class FileWorker:
      вакансий между собой по зарплате и валидировать данные, которыми
      инициализируются его атрибуты.'''
 
+    __slots__ = ['name', 'url', 'salary', 'employer']  # Ограничение атрибутов для экономии памяти
+
     def __init__(self, name: str, url: str, salary: int, employer: str):
         self.name = self._validate_name(name)
         self.url = self._validate_url(url)
