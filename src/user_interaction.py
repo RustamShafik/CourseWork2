@@ -1,9 +1,6 @@
 from src.parser import HH
-from src.utils import (
-    print_search_query,
-    search_by_query_desc,
-    sort_vacancies_by_top_salary,
-)
+from src.utils import (print_search_query, search_by_query_desc,
+                       sort_vacancies_by_top_salary)
 
 
 def interact():

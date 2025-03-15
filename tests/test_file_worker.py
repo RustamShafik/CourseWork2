@@ -1,5 +1,7 @@
 import pytest
+
 from src.file_worker import FileWorker
+
 
 def test_vacancy_is_str():
     '''Пооверяем, что если название вакансии

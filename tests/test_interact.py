@@ -1,7 +1,9 @@
 import unittest
 from unittest.mock import patch
-from src.user_interaction import interact
+
 from src.parser import HH
+from src.user_interaction import interact
+
 
 class TestInteract(unittest.TestCase):
 

@@ -5,6 +5,7 @@ import pytest
 
 from src.parser import HH
 
+
 class TestParser(unittest.TestCase):
 
     @patch('requests.get')

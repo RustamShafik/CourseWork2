@@ -26,7 +26,8 @@ class FileWorker:
         строкой и начинается с "http"."""
         if not isinstance(url, str) or not url.startswith("http"):
             raise ValueError(
-                "Ссылка на вакансию должна быть " 'строкой и начинаться с "http".'
+                "Ссылка на вакансию должна быть "
+                'строкой и начинаться с "http".'
             )
         return url
 

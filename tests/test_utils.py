@@ -1,9 +1,11 @@
-import pytest
-from io import StringIO
-import sys
 import json
-from src.utils import print_search_query
-from src.utils import sort_vacancies_by_top_salary
+import sys
+from io import StringIO
+
+import pytest
+
+from src.utils import print_search_query, sort_vacancies_by_top_salary
+
 
 def test_print_search_query(sample_vacancies, capsys):
     keyword = "Переводчик"

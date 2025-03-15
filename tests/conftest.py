@@ -1,5 +1,7 @@
 import pytest
+
 from src.file_processing import JSON_Processing
+
 
 @pytest.fixture
 def sample_vacancy():

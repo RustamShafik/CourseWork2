@@ -1,7 +1,10 @@
 import json
-import pytest
 from unittest.mock import mock_open, patch
+
+import pytest
+
 from src.file_processing import JSON_Processing
+
 
 def test_add_vacancy(sample_vacancy, tmp_path):
     """Тест добавления вакансии в JSON"""
