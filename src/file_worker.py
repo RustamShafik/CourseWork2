@@ -50,8 +50,8 @@ class FileWorker:
         return self.salary < other.salary
 
     def __gt__(self, other):
-        """Магический метод, возвращающий True,
-        если зарплата текущей вакансии больше зарплаты другой вакансии."""
+        """Магический метод, возвращающий True, если
+        зарплата текущей вакансии больше зарплаты другой вакансии."""
         return self.salary > other.salary
 
     def __eq__(self, other):
